@@ -1,0 +1,72 @@
+@import '../../../../styles/styles.scss';
+
+ion-title {
+    -webkit-padding-start: $px_0;
+    padding-inline-start: $rem_1;
+}
+
+.checkbox-label {
+    @include fs-12px;
+    white-space: break-spaces;
+    margin-bottom: $px_0;
+    color: $color-67677E;
+}
+
+ion-toolbar {
+    --background-color: transparent;
+    --ion-color-base: transparent !important;
+    --border-color: transparent !important;
+}
+
+ion-title{
+    @include fs-20px
+}
+
+.subtitle{
+    @include fs-14px;
+    ion-text{
+        @include fw-medium;
+        color:$color-67677E;
+    }
+}
+
+.mr2 {
+    @include mr2;
+}
+
+.pt3{
+    @include pt3;
+}
+
+.hr {
+    border: $px_1 solid #D8DAE1;
+}
+
+.link-btn {
+    @include pt3;
+    ion-button {
+        height: $btn_height !important;
+        ion-label {
+            display: contents !important;
+            ion-icon {
+                @include mr2;
+            }
+            ion-text {
+                @include fs-14px;
+                color: $color-0F1642;
+            }
+        }
+    }
+}
+
+.submit-btn{
+    @include pt3;
+    ion-button{
+        height: $btn_height;
+        ion-label{
+            @include fs-16px;
+            @include fw-normal;
+            color: $color-ffffff;
+        }
+    }
+}

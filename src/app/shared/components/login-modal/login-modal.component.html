@@ -1,0 +1,81 @@
+<ion-header>
+  <ion-toolbar color="light" class="ion-no-padding pt3">
+    <ion-title class="ion-text-start">Log In/Register</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal()">
+        <ion-icon color="dark" name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <div class="ion-padding">
+    <ion-label class="subtitle ion-text-capitalize"><ion-text>
+        Please enter your email address to receive
+      </ion-text>
+      <ion-text><strong>One Time Password</strong></ion-text></ion-label>
+
+    <form class="pt3">
+      <ion-item mode='md' fill="outline">
+        <ion-label position="floating">Email Address</ion-label>
+        <ion-input placeholder="Enter text" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-item class="ion-no-padding" lines="none">
+        <ion-checkbox class="mr2" mode="md" slot="start"></ion-checkbox>
+        <ion-label class="checkbox-label">
+          <span>By continuing, I agree to the <a><b>Terms of
+                Use </b></a>&<a> <b> Privacy Policy</b></a>
+          </span>
+        </ion-label>
+      </ion-item>
+
+
+      <ion-row class="submit-btn">
+        <ion-col class="ion-no-padding">
+          <ion-button class="ion-no-margin" type="submit" color="primary" expand="block">
+            <ion-label>Continue</ion-label></ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+
+    <ion-row class=" ion-align-items-center pt3">
+      <ion-col class="ion-no-padding">
+        <div class="hr"></div>
+      </ion-col>
+      <ion-col size="1" class="ion-justify-content-center">
+        <ion-label class="color-67677E">
+          or
+        </ion-label>
+      </ion-col>
+      <ion-col class="ion-no-padding">
+        <div class="hr"></div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="link-btn">
+      <ion-col class="ion-no-padding">
+        <ion-button class=" ion-no-margin" fill="outline" color="medium" expand="block">
+          <ion-label>
+            <ion-icon src="assets/icon/google.svg"></ion-icon>
+            <ion-text color="dark">Continue with Google</ion-text>
+          </ion-label>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="link-btn">
+      <ion-col class="ion-no-padding">
+        <ion-button class="ion-no-margin" fill="outline" color="medium" expand="block">
+          <ion-label>
+            <ion-icon src="assets/icon/facebook.svg"></ion-icon>
+            <ion-text color="dark">Continue with Facebook</ion-text>
+          </ion-label>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>

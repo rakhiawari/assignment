@@ -1,0 +1,43 @@
+@mixin fs-20px {
+    font-size: 20px !important;
+}
+
+@mixin fs-16px {
+    font-size: 16px !important;
+}
+
+@mixin fs-14px {
+    font-size: 14px !important;
+}
+
+@mixin fs-12px {
+    font-size: 12px !important;
+}
+
+@mixin fs-11px {
+    font-size: 11px !important;
+}
+
+@mixin fw-bold {
+    font-weight: 700 !important;
+}
+
+@mixin fw-semibold {
+    font-weight: 600 !important;
+}
+
+@mixin fw-medium {
+    font-weight: 500 !important;
+}
+
+@mixin fw-normal {
+    font-weight: 400 !important;
+}
+
+@mixin mr2{
+    margin-right: 0.5rem;
+}
+
+@mixin pt3{
+    padding-top: 1rem;
+}
